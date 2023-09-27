@@ -1,0 +1,13 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+upload:
+    path: pdf/upload
+    controller: App\Controller\PdfUploadController::upload
+
+search:
+    path: /search
+    controller: App\Controller\PdfUploadController::search
